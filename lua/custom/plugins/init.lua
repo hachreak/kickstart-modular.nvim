@@ -31,7 +31,7 @@ vim.api.nvim_set_keymap('n', 'Y', 'y$', {
   noremap = true, silent = true })
 
 -- Enable mouse mode
-vim.o.mouse = 'i'
+vim.o.mouse = 'v'
 
 -- Move to another window
 vim.api.nvim_set_keymap('', '<C-j>', '<C-w>j', {
